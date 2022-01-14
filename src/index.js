@@ -4,7 +4,6 @@ import "./styles.css";
 import Temperature from "./Temperature";
 import Location from "./Location";
 import Date from "./Date";
-import axios from "axios";
 
 function App() {
   return (
