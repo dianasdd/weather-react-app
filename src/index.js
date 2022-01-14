@@ -1,17 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles.css";
+import Temperature from "./Temperature";
+import Location from "./Location";
+import Date from "./Date";
+import axios from "axios";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function App() {
+  return (
+    <div className="weather">
+      <div class="container">
+        <div class="weather-app">
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Search City"
+              id="city-input"
+              autocomplete="off"
+            />
+            <button type="submit" class="btn btn-primary">
+              Search
+            </button>
+          </form>
+          <br />
+          <Location />
+          <Date />
+          <Temperature />
+        </div>
+      </div>
+    </div>
+  );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
