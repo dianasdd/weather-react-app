@@ -12,10 +12,16 @@ export default function Temperature() {
       <div class="clearfix weather-temperature">
         <h1 id="temperature">12</h1>
         <span class="units">
-          <a href="#" id="celsius-link">
+          <a
+            href="https://pt.wikipedia.org/wiki/Grau_Celsius"
+            id="celsius-link"
+          >
             ºC |
           </a>
-          <a href="#" id="fahrenheit-link">
+          <a
+            href="https://en.wikipedia.org/wiki/Fahrenheit"
+            id="fahrenheit-link"
+          >
             ºF
           </a>
         </span>
