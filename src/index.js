@@ -26,6 +26,16 @@ function App() {
           <Date />
           <Temperature />
         </div>
+        <footer>
+          This project was coded by Diana Dancante and is{" "}
+          <a
+            href="https://github.com/dianasdd/weather-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
