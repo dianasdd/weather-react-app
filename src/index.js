@@ -4,6 +4,7 @@ import "./styles.css";
 import Temperature from "./Temperature";
 import Location from "./Location";
 import Date from "./Date";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
