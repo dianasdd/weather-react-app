@@ -27,7 +27,7 @@ export default function Temperature() {
         </span>
       </div>
       <h2 id="temp-description">Overcast Clouds</h2>
-      <h3>
+      <h3 id="temp-caracteristics">
         humidity: 80%
         <br />
         wind: 10km/h

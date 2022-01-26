@@ -15,38 +15,47 @@
 .weather-temperature .units {
   position: relative;
   font-size: 17px;
-  bottom: 65px;
+  bottom: 73px;
   left: 321px;
   font-weight: 600;
 }
 
 h1 {
   color: black;
-  font-size: 70px;
   margin: 0 auto;
   text-align: center;
-  padding: 0;
 }
 h2 {
-  font-size: 20px;
-  color: black;
   margin: 0 auto;
   padding-bottom: 20px;
-  padding-top: 0;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  text-transform: capitalize;
 }
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   color: #5e5e77;
-  font-size: 18px;
-  margin: 0 auto;
   text-align: center;
 }
+
+footer {
+  text-align: center;
+}
+
 #celsius-link,
 #fahrenheit-link {
   text-decoration: none;
+}
+
+#temperature {
+  font-size: 70px;
+}
+
+#temp-description {
+  font-size: 20px;
+}
+
+#temp-caracteristics {
+  font-size: 17px;
 }
 
 #city {
