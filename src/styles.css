@@ -41,6 +41,11 @@ footer {
   text-align: center;
 }
 
+canvas {
+  margin: 0 auto;
+  display: block;
+}
+
 #celsius-link,
 #fahrenheit-link {
   text-decoration: none;
@@ -89,9 +94,4 @@ footer {
   display: block;
   margin-right: 310px;
   text-align: center;
-}
-#icon {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
 }
