@@ -15,6 +15,10 @@
   font-weight: 600;
 }
 
+button {
+  padding: 30px;
+}
+
 h1 {
   color: black;
   margin: 0 auto;
@@ -78,10 +82,6 @@ canvas {
   margin: 20px 0 0 70px;
 }
 
-#currentLocationButton {
-  color: white;
-  background-color: #4547c4;
-}
 #humidity {
   line-height: 1cm;
 }
