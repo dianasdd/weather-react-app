@@ -68,8 +68,9 @@ footer {
 
 #date {
   font-size: 18px;
-  margin: 0 0 0 70px;
   color: #4c4d7a;
+  position: relative;
+  left: 70px;
 }
 
 #search-form {
