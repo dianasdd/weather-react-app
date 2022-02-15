@@ -14,11 +14,11 @@ export default function WeatherTemperature(props) {
 
   if (unit === "celsius") {
     return (
-      <div class="clearfix weather-temperature">
+      <div className="clearfix weather-temperature">
         <h1 id="temperature">{Math.round(props.celsius)}</h1>
-        <span class="units">
+        <span className="units">
           ºC |
-          <a href="" onClick={showFahrenheit} id="fahrenheit-link">
+          <a href="/" onClick={showFahrenheit} id="fahrenheit-link">
             ºF
           </a>
         </span>
@@ -27,10 +27,10 @@ export default function WeatherTemperature(props) {
   } else {
     let fahrenheit = (props.celsius * 9) / 5 + 32;
     return (
-      <div class="clearfix weather-temperature">
+      <div className="clearfix weather-temperature">
         <h1 id="temperature">{Math.round(fahrenheit)}</h1>
-        <span class="units">
-          <a href="" onClick={showCelsius} id="fahrenheit-link">
+        <span className="units">
+          <a href="/" onClick={showCelsius} id="fahrenheit-link">
             ºC
           </a>{" "}
           |ºF
